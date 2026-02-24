@@ -1,0 +1,13 @@
+Place your custom models here:
+
+  stadium.glb  →  Custom stadium/field model
+  player.glb   →  Custom player model
+
+Both files are optional. The game works without them using generated geometry.
+
+HOW TO USE:
+1. Drop your .glb files here
+2. Launch the game: npm run dev
+3. Click "Adjust Field / Models" from the main menu
+4. Enable the model and click Apply
+5. Use sliders to align position/scale/rotation
