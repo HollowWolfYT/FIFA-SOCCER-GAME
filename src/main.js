@@ -24,7 +24,7 @@ export const PITCH_CONFIG = {
 
 export const STADIUM_CONFIG = {
   useCustomStadium: true,
-  path: '/stadium.glb',
+    path: new URL('./stadium.glb', import.meta.env.BASE_URL).href,  
   positionX: 0,
   positionY: -0.3,
   positionZ: -2.7,
@@ -37,7 +37,7 @@ export const STADIUM_CONFIG = {
 
 export const PLAYER_CONFIG = {
   useCustomModel: true,
-  path: '/player.glb',
+  path: new URL('./player.glb', import.meta.env.BASE_URL).href,
   scale: 0.7,
   rotationY: 0,
   yOffset: 0,
