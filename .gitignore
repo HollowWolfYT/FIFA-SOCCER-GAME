@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# vite cache
+.vite/
+.cache/
+node_modules/.cache/
